@@ -1,0 +1,53 @@
+Programming - programming language --> computer programming language
+computer Hardware (cpu, input/output, memory)
+Programming to make/develop program
+program to make things easy
+
+Language we chose: Python
+0.) Setup
+(compiler/interpreter - executes the code I wrote --> We need python)
+(Github desktop - Upload and download code and files from web)
+(Code Editor - helps you write/edit code {atom})
+
+test --> print code (print ("") )
+
+1.) Data and Operation
+  - number
+  - Boolean (true/false : 0, "", false, [], {} )
+  - String ("")
+
+Operation
+- Arithmetic --> add(+) sub(-) div(/) multi(*) exponential (**) modulus(%)
+- Logical --> and, not, or
+- compare --> == != > < >= <=
+
+2.) Variable
+Use as a container of data
+Name = Data (= is assign)
+reassign can be used below the first assignment
+
+collection (to group data)
+Dictionary & List
+
+exlist = ["---", "---"]
+2 elements, index0, index 1
+number index
+
+Dictionary
+exdict = {
+  "keyA" : "valueA",
+  "keyB" : "valueB"
+}
+2 Elements (key-value pair)
+index(keyA) index(keyB)
+name index
+
+3.) control
+- Branch (if/elif/else, (switch) )
+- Loop (for loop, while loop)
+- Exception (try, catch, finally) : increase performance, advanced technique (maybe not on this class)
+
+Statement: does not contain a value (a = 3, print(a))
+Expression: contains a value (a, a + 3)
+
+scope : code block to be executed when condition(expr for the control code) is true.

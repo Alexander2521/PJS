@@ -6,4 +6,3 @@ if (ipad < 1000):
 # while "haha":
 #     print(num)
 #     num += 1
-x
