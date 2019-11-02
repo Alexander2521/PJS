@@ -11,6 +11,13 @@ Language we chose: Python
 
 test --> print code (print ("") )
 
+Terminal
+* cd FOLDERNAME : change directory, goes to FOLDERNAME folder which is inside current folder
+  * FOLDERNAME can be a PATH : E.G. Desktop/PJS/HW
+  * When you want to go go the parent folder, put ".." in FOLDERNAME
+* ls : shows all files and folders inside current folder
+
+
 1.) Data and Operation
   - number
   - Boolean (true/false : 0, "", false, [], {} )
@@ -51,3 +58,20 @@ Statement: does not contain a value (a = 3, print(a))
 Expression: contains a value (a, a + 3)
 
 scope : code block to be executed when condition(expr for the control code) is true.
+
+
+4.) function
+- similar to a program
+input --> work --> output
+input is known as a parameter (can be more than 1)
+output is known as the return value
+
+How to MAKE a function (Python)
+def functName (parameter1, parameter2, ...):
+-->                                                                |(scope)
+-->                                                                |(scope)
+-->  return(output) Expression                                     |(scope)
+__________________________________
+
+How to USE a function
+functName ( expression1, expression2, ... {inserted} ) => expression (return value)
