@@ -14,7 +14,7 @@ test --> print code (print ("") )
 Terminal
 * cd FOLDERNAME : change directory, goes to FOLDERNAME folder which is inside current folder
   * FOLDERNAME can be a PATH : E.G. Desktop/PJS/HW
-  * When you want to go go the parent folder, put ".." in FOLDERNAME
+  * When you want to go go the parent folder, put ".." instead of FOLDERNAME
 * ls : shows all files and folders inside current folder
 
 
@@ -71,7 +71,11 @@ def functName (parameter1, parameter2, ...):
 -->                                                                |(scope)
 -->                                                                |(scope)
 -->  return(output) Expression                                     |(scope)
+
 __________________________________
 
 How to USE a function
 functName ( expression1, expression2, ... {inserted} ) => expression (return value)
+
+5.) Class & Objects :>
+ant man is better than spider  man 
