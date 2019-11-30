@@ -10,11 +10,7 @@ class Donut :
         else:
             print("you're not dead yet. you have the perfect amount of insulin, to regulate homeostasis")
 
-            # supercalifragilexpaliodocious
-
-
-
-
+        
 class StarShapedDonut(Donut):
     def __init__(donut, fruits, topping, color, calories, shape = 'star'):
         super().__init__( shape , color, calories)
@@ -34,7 +30,8 @@ appleDonut.calories = 10000
 appleDonut.die()
 
 
-# strawberryDonut = StarShapedDonut('straberry', 'pineapple')
+# strawberryDonut = StarS
+hapedDonut('straberry', 'pineapple')
 # JohnDonut = StarShapedDonut("John's Leg", "John's Eyeballs")
 
 # JohnDonut.__taste__()

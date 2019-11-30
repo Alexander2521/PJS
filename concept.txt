@@ -77,5 +77,22 @@ __________________________________
 How to USE a function
 functName ( expression1, expression2, ... {inserted} ) => expression (return value)
 
-5.) Class & Objects :>
-ant man is better than spider  man 
+5.) Class & Objects
+Class : "blueprint" for creating Objects
+Objects(= instance) : "examples/samples/products" created by Class sharing methods & properties.
+Method : function in object/ Class
+Property : special values that are included within a class/object
+Inheritance : when the parent class and child class is created, the child class inherits all of the parent classes' property and methods.
+__init__ method: assign values when the object is being created
+Self Parameter (in first Parameter of method) : reference to current object --> used to access variables which belong to the class
+
+6.) Modules
+Modules are like code library --> used to import codes
+library: other people's code -> collection of functions and methods that allows you to perform many actions without writing your code.
+code splitting: When your code in single file is too long, split them into multiple files.
+                Take a function or code from another file by importing it when you need one.
+import : When you take a code fragment(fucntion, variable, class) from another file and try to use it --> you need to import the file name
+from : When you import, the idea of from allows you to write the file name you need to use/import.
+
+7.) Advanced
+saved for later.
