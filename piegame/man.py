@@ -69,18 +69,22 @@ while not crashed:
 
     gameDisplay.fill(white)
     magic(magicX,magicY)
-    text("Hi I'm magic Johnson", magicX, magicY + magic_height)
+    text("Hi I'm magic Johnson", magicX + 50, magicY + 30 + magic_height)
         # print(event)
 
     if magicX < 0:
         magicX = 0
+        text("ouch", magicX + 150, magicY + 10)
     if magicX > display_width - magic_width:
         magicX= display_width - magic_width
+        text("ouch", magicX - 50, magicY + 10)
 
     if magicY < 0 :
         magicY = 0
+        text("ouch", magicX - 60,magicY +30)
     if magicY > display_height - magic_height:
         magicY = display_height - magic_height
+        text("ouch", magicX -60, magicY + 50)
 
 
 
