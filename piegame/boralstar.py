@@ -53,13 +53,44 @@ while not crashed:
         if event.key == pygame.K_DOWN or event.key == pygame.K_UP:
             y_change = 0
 
-    backX += x_change
-    backY += y_change
+
+    if ((backY + 1800 <= 600)) and bullY <= 500:
+        print(bullY)
+        y_change = 0
+        bullY -= y_change
+
+    if ((backY >= 0)) and bullY >= 0:
+        y_change = 0
+        bullY -= y_change
+
+    if ((backX + 2400 <= 800)) and x_change < 0 :
+        bullX -= x_change
+
+    if ((backX >= 0)) and x_change > 0:
+        bullX -= x_change
+
+
+
+    if ((backX < 0) and x_change > 0 ) or ((backX + 2400 > 800) and (x_change < 0)):
+        backX += x_change
+
+
+    if ((backY < 0) and y_change > 0) or ((backY + 1800 > 600) and (y_change < 0)) :
+        backY += y_change
 
     gameDisplay.fill(white)
     back(backX,backY)
     bull(bullX,bullY)
 
+    # if bullX < 0:
+    #     bullX = 0
+    # if bullX > display_width - bull_width:
+    #     bullX= display_width - bull_width
+    #
+    # if bullY < 0 :
+    #     bullY = 0
+    # if bullY > display_height - bull_height:
+    #     bullY= display_height - bull_height
     pygame.display.update()
     clock.tick(60)
 
