@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 
 # Step 3 :  parsing weather data from NWS
-page = requests.get("https://forecast.weather.gov/MapClick.php?lat=37.7772&lon=-122.4168#.Xv2ujigzY2w")
+page = requests.get("https://forecast.weather.gov/MapClick.php?lat=37.7772&lon=-122.4168")
 soup = BeautifulSoup (page.content, 'html.parser')
 seven_day = soup.find(id="seven-day-forecast")
 forecast_items = seven_day.find_all(class_="tombstone-container")
